@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #444444;
+	font-family: 'Josefin Sans', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #a9a9a9;
+	text-align: left;
+}
+
+.btn a {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid #fb2274;
+    color: #fb2274;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+}
+
+.main_container{
+	position: relative;
+}
+
+/* Navigation Bar */
+.navbar{
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo a{
+	font-family: 'Josefin Sans', cursive;
+	font-size: 25px;
+	color: #fff;
+}
+
+.navbar_items ul{
+	display: flex;
+}
+
+.navbar_items ul li{
+	margin: 0 10px;
+}
+
+.navbar_items ul li a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* banner_image */
+.banner_image{
+	background: url('./images/banner.jpg') no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 10px;
+}
+
+/* motivation */
+.motivation,
+.visulazition,
+.mlModel,
+.conclusion,
+.ourteam{
+	text-align: center;
+	padding: 5% 10%;
+}
+.stationary,
+.preparation{
+	text-align: center;
+	padding: 5% 10%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.v1_page{
+	text-align: center;
+	padding: 5% 5%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.observation_subtitle{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+/* visulazition */
+.visulazition{
+	background: #f5f5f5;
+}
+.ml{
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.diff_visulazition {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.ml .ml_item{
+	width: 45%;
+}
+
+.diff_visulazition .diff_visulazition_item {
+    width: 30%;
+}
+.ml .ml_item img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.diff_visulazition .diff_visulazition_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_visulazition .diff_visulazition_item h3 {
+    color: #fb2274;
+    margin-bottom: 15px;
+}
+
+/* mlModel */
+.form_wrapper .form_input{
+	margin-bottom: 15px;
+}
+
+.form_wrapper .form_input input[type="text"]{
+	width: 250px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+}
+
+.form_wrapper .form_input textarea{
+	width: 250px;
+	padding: 12px 20px;
+	height: 80px;
+	resize: none;
+	border: 1px solid  #ccc;
+}
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+#train,
+#preparation{
+	width:50%;
+    margin-right:2%;
+    float: left;
+}
+#model_image,
+#preparation_image{
+	width:46%;
+    float: left;
+}
+
+
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 8px;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 4px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+
+#v1_title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #444444;
+}
+
+#v1_subtitle{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #a9a9a9;
+}
+#v1_conclusion{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #a9a9a9;
+}
+#main_takeaways{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #444444;
+	
+}
+
