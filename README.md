@@ -1,6 +1,6 @@
 # USfires
 ## Inspiration
-Wildfires are a major source of air pollutants in the United States, especially in the wild west. In the context of global warming, wildfires are expected to be more frequent and severe, and thus of increasing concern to the public and government, especially those in fire-prone regions like western U.S. and wildland-urban interface. Improved representations of fire data through our project could help facilitate understanding of the fire occurrence pattern and help inform decision-making activities related to the mitigation and prediction of wildfire risks.
+Wildfires are a major source of air pollutants in the United States, especially in the western US. In the context of global warming, wildfires are expected to be more frequent and severe, and thus of increasing concern to the public and government, especially those in fire-prone regions like western U.S. and wildland-urban interface. Improved representations of fire data through our project could help facilitate understanding of the fire occurrence pattern and help inform decision-making activities related to the mitigation and prediction of wildfire risks.
 
 ## What it does
 In this project, we demonstrated wildfire trends and statistics in a spatially and temporally explicit manner using a comprehensive dataset consisting of 1.88 million wildfires across the contiguous U.S. over the time period 1992–2015. Our goal is to create an interactive wildfire inventory that could be easily queried and displayed.
